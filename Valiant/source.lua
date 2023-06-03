@@ -39,7 +39,7 @@ function library:CreateWindow(name, version, icon)
 
 	Window.Name = "Window"
 	Window.Parent = MyGui
-	Window.BackgroundColor3 = Color3.fromRGB(49, 49, 59)
+	Window.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
 	Window.Position = UDim2.new(0.5, -300, 0.600000024, -200)
 	Window.Size = UDim2.new(0, 0, 0, 0)
 	Window.ClipsDescendants = true
@@ -125,7 +125,7 @@ function library:CreateWindow(name, version, icon)
 	_4pxShadow2px_2.Selectable = true
 	_4pxShadow2px_2.Size = UDim2.new(1, 30, 1, 30)
 	_4pxShadow2px_2.Image = "http://www.roblox.com/asset/?id=5761504593"
-	_4pxShadow2px_2.ImageColor3 = Color3.fromRGB(49, 49, 59)
+	_4pxShadow2px_2.ImageColor3 = Color3.fromRGB(63, 63, 63)
 	_4pxShadow2px_2.ImageTransparency = 0.300
 	_4pxShadow2px_2.ScaleType = Enum.ScaleType.Slice
 	_4pxShadow2px_2.SliceCenter = Rect.new(17, 17, 283, 283)
@@ -227,7 +227,7 @@ function library:CreateWindow(name, version, icon)
 
 		Tabs.Name = "Tabs"
 		Tabs.Parent = Window
-		Tabs.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
+		Tabs.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 		Tabs.Position = UDim2.new(0, 5, 0, 36)
 		Tabs.Size = UDim2.new(0, 140, 1, -41)
 
@@ -299,7 +299,7 @@ function library:CreateWindow(name, version, icon)
 			Page.Parent = Window
 			Page.Active = true
 			Page.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
-			Page.BorderColor3 = Color3.fromRGB(27, 42, 53)
+			Page.BorderColor3 = Color3.fromRGB(50, 50, 50)
 			Page.BorderSizePixel = 0
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
@@ -381,7 +381,7 @@ function library:CreateWindow(name, version, icon)
 
 			Header.Name = "Header"
 			Header.Parent = Section
-			Header.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+			Header.BackgroundColor3 = Color3.fromRGB(63, 63, 63)
 			Header.BorderSizePixel = 0
 			Header.Size = UDim2.new(1, 0, 0, 8)
 
